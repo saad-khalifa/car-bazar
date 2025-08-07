@@ -1,0 +1,32 @@
+/* Layout.css */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #343a40;
+  color: white;
+}
+
+.sidebar .nav-link {
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #007bff;
+}
+
+.dashboard-admin {
+  margin-left: 200px; /* اجعل المحتوى يظهر بجانب الشريط الجانبي */
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #343a40;
+  color: white;
+}
