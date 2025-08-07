@@ -78,7 +78,7 @@ const navigate = useNavigate();
 
   return (
     <Navbar bg="light" expand="lg" className="navbar navbar-expand-lg container-fluid">
-  <>
+  <Container>
     <Navbar.Brand href="/" className="logo-animation">
       <img src="../images/car.jpg" alt="Logo" width='100px'/>
     </Navbar.Brand>
@@ -242,7 +242,6 @@ const navigate = useNavigate();
             <div className="icons">
               <Dropdown align="end">
                 <Dropdown.Toggle variant="link" id="dropdown-notifications" className="notification-text">
-                  <i className="fas fa-bell" onClick={()=>markAllAsRead()} style={{ textDecoration:'none' }}>الإشعارات</i>
                   {unreadCount > 0 && (
                     <Badge pill variant="danger">
                       {unreadCount}
@@ -278,7 +277,7 @@ const navigate = useNavigate();
         )}
       </Nav>
     </Navbar.Collapse>
-  </>
+  </Container>
 </Navbar>
 
 
